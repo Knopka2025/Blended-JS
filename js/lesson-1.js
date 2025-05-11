@@ -1,4 +1,4 @@
-//
+console.log('МОДУЛЬ 1');
 // !Завдання 1
 
 // Запропонуйте користувачу ввести число за допомогою prompt().
@@ -10,12 +10,12 @@
 // Підказка: prompt завжди повертає рядок (String), тому перед перевіркою
 // перетворіть значення на число за допомогою Number().
 
-// let number = +prompt()
-// switch (number) {
-//     case 10: alert("Вірно")
-//         break
-//     default: alert("Невірно")
-// }
+let number = +prompt()
+switch (number) {
+ case 10: alert("Вірно")
+    break
+     default: alert("Невірно")
+ }
 
 
 
@@ -28,11 +28,11 @@
 // Виведіть в alert відповідне повідомлення, наприклад:
 // "10 входить в першу чверть"
 
-// const min = Math.floor(Math.random() * (59 - 0) + 0);
-// if (min >= 0 && min <= 15) {alert(`${min} входить у першу чверть`)}
-// if (min > 15 && min <= 30) { alert(`${min} входить у другуу чверть`) }
-// if (min > 30 && min <= 45) { alert(`${min} входить у третю чверть`) }
-// if (min > 45 && min <= 60) { alert(`${min} входить у четвертуу чверть`) }
+ const min = Math.floor(Math.random() * (59 - 0) + 0);
+ if (min >= 0 && min <= 15) {alert(`${min} входить у першу чверть`)}
+ if (min > 15 && min <= 30) { alert(`${min} входить у другуу чверть`) }
+ if (min > 30 && min <= 45) { alert(`${min} входить у третю чверть`) }
+ if (min > 45 && min <= 60) { alert(`${min} входить у четвертуу чверть`) }
 
 
 

@@ -1,3 +1,5 @@
+console.log('МОДУЛЬ 2');
+
 //!Завдання 1:
 
 // Створіть масив styles з елементами 'jazz' і 'blues'
@@ -43,7 +45,7 @@ logItems(styles);
 // const logins = ["Peter", "John", "Igor", "Sasha"];
 
 
-function checkLogin(array) {
+/*function checkLogin(array) {
     let userName = prompt("Enter your name:");
     const modifiedStr = userName[0].toUpperCase() + userName.slice(1);
     if (array.includes(modifiedStr)) {
@@ -56,7 +58,7 @@ function checkLogin(array) {
 const logins = ["Peter", "John", "Igor", "Sasha"];
 
 checkLogin(logins);
-
+*/
 
 //!Завдання 3:
 
